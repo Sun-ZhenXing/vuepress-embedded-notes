@@ -4,12 +4,19 @@ import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 
 const USER_NAME = 'Sun-ZhenXing'
-const BASE_PATH = '/vuepress-solid-template/'
+const BASE_PATH = '/vuepress-embedded-template/'
 
 export default defineUserConfig({
-  lang: 'en-US',
-  title: 'Vuepress Solid Template',
-  description: 'Best Vuepress Template',
+  lang: 'zh-CN',
+  title: '嵌入式合集',
+  description: '各类嵌入式芯片及其开发总结',
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: '嵌入式合集',
+      description: '各类嵌入式芯片及其开发总结',
+    }
+  },
   head: [
     ['link', { rel: 'icon', href: `${BASE_PATH}favicon.svg` }]
   ],
@@ -22,27 +29,12 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/favicon.svg',
     repo: `${USER_NAME}${BASE_PATH}`,
+    editLinkText: '在 GitHub 上编辑此页',
+    contributorsText: '贡献者',
+    lastUpdatedText: '上次更新',
     navbar: [
-      {
-        text: 'Demo for Vuepress Solid',
-        children: [
-          {
-            text: 'Vuepress Solid Template',
-            link: '/demo/'
-          }
-        ]
-      }
     ],
     sidebar: {
-      '/demo/': [
-        {
-          text: 'Demo',
-          children: [
-            '/demo/page01.md',
-            '/demo/page02.md',
-          ]
-        }
-      ]
     }
   }),
   plugins: [
