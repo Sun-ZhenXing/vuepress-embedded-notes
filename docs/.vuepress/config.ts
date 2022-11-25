@@ -33,8 +33,32 @@ export default defineUserConfig({
     contributorsText: '贡献者',
     lastUpdatedText: '上次更新',
     navbar: [
+      {
+        text: '合集',
+        children: [
+          '/raspberrypi-pico/',
+        ]
+      }
     ],
     sidebar: {
+      '/raspberrypi-pico/': [
+        {
+          text: '树莓派 Pico',
+          children: [
+            '/raspberrypi-pico/intro/',
+            '/raspberrypi-pico/c-cpp/',
+            '/raspberrypi-pico/micropython/',
+          ]
+        }
+      ],
+      '/raspberrypi-pico/micropython/': [
+        {
+          text: 'MicroPython 开发树莓派 Pico',
+          children: [
+            '/raspberrypi-pico/micropython/chapter01/',
+          ]
+        }
+      ],
     }
   }),
   plugins: [

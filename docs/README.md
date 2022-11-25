@@ -12,3 +12,9 @@ footer: 嵌入式笔记合集，由 @Sun-ZhenXing 创建
 ---
 
 # 嵌入式笔记合集
+
+## [树莓派 Pico](./raspberrypi-pico/)
+
+- [介绍](./raspberrypi-pico/intro/)
+- [C/C++ 开发 Pico](./raspberrypi-pico/c-cpp/)
+- [MicroPython 开发 Pico](./raspberrypi-pico/micropython/)
