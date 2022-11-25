@@ -4,17 +4,17 @@ import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 
 const USER_NAME = 'Sun-ZhenXing'
-const BASE_PATH = '/vuepress-embedded-template/'
+const BASE_PATH = '/vuepress-embedded-notes/'
 
 export default defineUserConfig({
   lang: 'zh-CN',
   title: '嵌入式合集',
-  description: '各类嵌入式芯片及其开发总结',
+  description: '各类嵌入式芯片开发总结',
   locales: {
     '/': {
       lang: 'zh-CN',
       title: '嵌入式合集',
-      description: '各类嵌入式芯片及其开发总结',
+      description: '各类嵌入式芯片开发总结',
     }
   },
   head: [
@@ -56,6 +56,7 @@ export default defineUserConfig({
           text: 'MicroPython 开发树莓派 Pico',
           children: [
             '/raspberrypi-pico/micropython/chapter01/',
+            '/raspberrypi-pico/micropython/chapter02/',
           ]
         }
       ],
