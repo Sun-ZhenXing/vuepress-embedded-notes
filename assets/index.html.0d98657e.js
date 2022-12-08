@@ -1,1 +1,0 @@
-import{_ as c,o as t,c as a,a as e,b as o}from"./app.3a8b53b9.js";const n={},r=e("h1",{id:"树莓派-pico-简介",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#树莓派-pico-简介","aria-hidden":"true"},"#"),o(" 树莓派 Pico 简介")],-1),s=[r];function i(_,d){return t(),a("div",null,s)}const l=c(n,[["render",i],["__file","index.html.vue"]]);export{l as default};
