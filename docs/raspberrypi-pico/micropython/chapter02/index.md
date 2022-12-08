@@ -1,5 +1,4 @@
 ---
-lang: zh-CN
 title: 第 2 章：读取温度并显示
 description: 读取 Pico 内温度传感器的数值，学习使用 ADC
 ---
