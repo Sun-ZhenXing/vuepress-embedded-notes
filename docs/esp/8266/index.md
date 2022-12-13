@@ -5,5 +5,6 @@ description: ESP8266
 
 # ESP8266
 
-- [WiFiManager 自动配网](./wifi-manager/)
 - [mDNS](./mdns/)
+- [MQTT](./mqtt/)
+- [使用 WiFiManager 自动配网](./wifi-manager/)

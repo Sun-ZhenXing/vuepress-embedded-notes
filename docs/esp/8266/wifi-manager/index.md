@@ -29,7 +29,6 @@ description: 介绍如何使用 WiFiManager 进行自动配网
 为了防止原有 WiFi 信息影响程序运行，或测试 WiFiManager 效果，先清除原 WiFi 信息：
 
 ```cpp
-#include <DNSServer.h>
 #include <ESP8266WebServer.h>
 #include <ESP8266WiFi.h>
 #include <WiFiManager.h>
@@ -55,7 +54,6 @@ void loop() {
 热点开启后，打开手机或笔记本电脑的 WiFi，连接后会提示此 WiFi 需要认证，点击认证即可进入配置界面。
 
 ```cpp
-#include <DNSServer.h>
 #include <ESP8266WebServer.h>
 #include <ESP8266WiFi.h>
 #include <WiFiManager.h>
