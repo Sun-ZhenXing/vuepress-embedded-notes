@@ -13,10 +13,12 @@ mDNS 可以在没有 DNS 服务器的情况下在内网就可以访问域名。�
 
 ## 2. ESP8266 开启 mDNS
 
+安装 ESP8266 库后就包含了 mDNS 库，所以可以直接使用。
+
 可参考 [示例代码](https://github.com/esp8266/Arduino/blob/master/libraries/ESP8266mDNS/examples/mDNS_Web_Server/mDNS_Web_Server.ino)。
 
 ```cpp
-// 引入 mDNS 库，安装 ESP8266 库后就包含了
+// 引入 mDNS 库
 #include <ESP8266mDNS.h>
 
 void setup() {
