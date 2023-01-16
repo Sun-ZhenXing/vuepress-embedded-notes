@@ -106,7 +106,7 @@ const char HTTP_SAVED[] PROGMEM           = "";
 const char HTTP_END[] PROGMEM             = "";
 ```
 
-修改案例可以参见 [GitHub：taichi-maker/WiFiManager](https://github.com/taichi-maker/WiFiManager/blob/master/WiFiManager.h)。
+修改案例可以参见 [GitHub: taichi-maker/WiFiManager](https://github.com/taichi-maker/WiFiManager/blob/master/WiFiManager.h)。
 
 ## 参考
 
