@@ -53,11 +53,42 @@ ssh rock@<ip>
 
 ### 2.1 更新源和内核
 
-Debian 系统为例，系统的软件源列表更新：
+这一小节以 Debian 为例。
+
+各种查看系统内核版本和发行版本的命令：
 
 ```bash
+uname -a
+hostnamectl
+
+cat /etc/issue
+cat /etc/os-release
+cat /etc/debian_version
+```
+
+添加官方秘钥：[^2]
+
+[^2]: radxa debian packages repository，<http://apt.radxa.com/>
+
+```bash
+wget -O -  apt.radxa.com/stretch/public.key | sudo apt-key add -
+```
+
+系统的软件源列表更新：
+
+```bash
+sudo echo 'deb https://mirrors.aliyun.com/debian/ bullseye main non-free contrib
+#deb-src https://mirrors.aliyun.com/debian/ bullseye main non-free contrib
+deb https://mirrors.aliyun.com/debian-security/ bullseye-security main
+#deb-src https://mirrors.aliyun.com/debian-security/ bullseye-security main
+deb https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib
+#deb-src https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib
+deb https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib
+#deb-src https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib
+
 deb http://apt.radxa.com/buster-stable/ buster main
 deb http://apt.radxa.com/buster-testing/ buster main
+deb http://apt.radxa.com/stretch/ stretch main' > /etc/apt/sources.list
 ```
 
 更新系统功能命令，注意需要保持 Linux 内核版本和其包版本一致。
@@ -68,6 +99,13 @@ sudo apt-get install -y rockchip-overlay
 sudo apt-get install -y linux-4.19-rock-3-latest
 ```
 
+如果下载较慢，可以使用局域网代理，将 `<ip>` 和 `<port>` 替换为你的代理主机信息：
+
+```bash
+export http_proxy=http://<ip>:<port>
+export https_proxy=socks://<ip>:<port>
+```
+
 ### 2.2 Ubuntu 安装桌面
 
 这是可选功能，如果您确实有需要则可以安装，安装过程较慢。Ubuntu 镜像默认没有桌面，安装桌面命令：
@@ -76,6 +114,17 @@ sudo apt-get install -y linux-4.19-rock-3-latest
 sudo apt-get update
 sudo apt install ubuntu-mate-core
 sudo apt install ubuntu-mate-desktop
+```
+
+### 2.3 个性化配置
+
+支持常见命令简写 `ll`、`la`、`l`：
+
+```bash
+echo "alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ## 3. 开启 NPU
@@ -131,7 +180,7 @@ sudo dmesg | grep rknpu
 镜像内没有 RKNN 服务，部分 NPU 功能可能无法使用，下面的命令将给系统安装此服务：
 
 ```bash
-git clone https://github.com/rockchip-linux/rknpu2
+git clone https://github.com/rockchip-linux/rknpu2 --depth 1
 
 pushd rknpu2/runtime/RK356X/Linux/librknn_api/aarch64
 sudo cp * /usr/lib/
