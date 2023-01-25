@@ -64,6 +64,12 @@ export default defineUserConfig({
         '/raspberrypi-pico/micropython/chapter01/',
         '/raspberrypi-pico/micropython/chapter02/',
         '/raspberrypi-pico/micropython/chapter03/',
+        '/raspberrypi-pico/micropython/chapter04/',
+        '/raspberrypi-pico/micropython/chapter05/',
+        '/raspberrypi-pico/micropython/chapter06/',
+        '/raspberrypi-pico/micropython/chapter07/',
+        '/raspberrypi-pico/micropython/chapter08/',
+        '/raspberrypi-pico/micropython/chapter09/',
       ]
     }
   }),

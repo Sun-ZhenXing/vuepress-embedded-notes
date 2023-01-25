@@ -5,6 +5,8 @@ description: 开始使用树莓派 Pico，点亮 LED
 
 # 1. 点亮 LED
 
+[[TOC]]
+
 ## 1.1 烧录固件
 
 首先到 [Pico MicroPython 固件下载地址](https://micropython.org/download/rp2-pico/) 下载固件，下载最新版本的 **Firmware/Releases**，你下载的文件名称应该类似于 `rp2-pico-20220618-v1.19.1.uf2`。

@@ -5,6 +5,8 @@ description: 读取 Pico 内温度传感器的数值，学习使用 ADC
 
 # 2. 读取温度并显示
 
+[[TOC]]
+
 ## 2.1 Pico ADC 模块
 
 Pico 需要使用 MicroPython 提供的接口来完成 ADC 控制。`machine.ADC` 类提供了 ADC 的支持。
