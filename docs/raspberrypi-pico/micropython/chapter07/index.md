@@ -7,8 +7,6 @@ description: Pico 外部引脚中断
 
 [[TOC]]
 
-![](./images/key-interrupt.svg)
-
 ```python
 from machine import Pin
 
