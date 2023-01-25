@@ -38,30 +38,33 @@ export default defineUserConfig({
       {
         text: '合集',
         children: [
+          '/awesome/',
+          '/esp/',
+          '/jetson/',
           '/raspberrypi-pico/',
+          '/rockchip/',
         ]
       }
     ],
     sidebar: {
       '/raspberrypi-pico/': [
-        {
-          text: '树莓派 Pico',
-          children: [
-            '/raspberrypi-pico/intro/',
-            '/raspberrypi-pico/c-cpp/',
-            '/raspberrypi-pico/micropython/',
-          ]
-        }
+        '/raspberrypi-pico/tutorial/',
+        '/raspberrypi-pico/c-cpp/',
+        '/raspberrypi-pico/micropython/',
+      ],
+      '/raspberrypi-pico/tutorial/': [
+        '/raspberrypi-pico/tutorial/chapter01/',
+        '/raspberrypi-pico/tutorial/chapter02/',
+        '/raspberrypi-pico/tutorial/chapter03/',
+      ],
+      '/raspberrypi-pico/c-cpp/': [
+        '/raspberrypi-pico/c-cpp/chapter01/',
       ],
       '/raspberrypi-pico/micropython/': [
-        {
-          text: 'MicroPython 开发树莓派 Pico',
-          children: [
-            '/raspberrypi-pico/micropython/chapter01/',
-            '/raspberrypi-pico/micropython/chapter02/',
-          ]
-        }
-      ],
+        '/raspberrypi-pico/micropython/chapter01/',
+        '/raspberrypi-pico/micropython/chapter02/',
+        '/raspberrypi-pico/micropython/chapter03/',
+      ]
     }
   }),
   plugins: [

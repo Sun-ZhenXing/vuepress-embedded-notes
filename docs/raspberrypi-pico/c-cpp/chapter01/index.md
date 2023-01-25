@@ -1,44 +1,42 @@
 ---
-title: Pico C/C++ 开发环境搭建
+title: 第 1 章：Pico C/C++ 开发环境搭建
 description: 简单介绍如何搭建 Pico 的 C/C++ 开发环境
 ---
 
-# Pico C/C++ 开发环境搭建
+# 1. Pico C/C++ 开发环境搭建
 
-::: warning 环境配置
+[[TOC]]
+
+## 1.1 安装基本依赖
 
 本文构建的是 x86 下的交叉编译环境，使用 Ubuntu 系统，如果需要其他系统或架构不能保证成功。
 
-:::
-
-## 必要条件
+::: warning 环境必要条件
 
 - Ubuntu 20.04 或更高（官方建议）
 - 系统桌面支持（非必须，部分功能依赖桌面）
 
-## 步骤
-
-### 安装基本依赖
+:::
 
 ```bash
 sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential
 ```
 
-### 克隆官方仓库
+## 1.2 克隆官方仓库
 
 ```bash
 cd
 mkdir -p pico
 cd pico/
-git clone -b master https://github.com/raspberrypi/pico-sdk.git
+git clone -b master https://github.com/raspberrypi/pico-sdk.git --depth 1
 cd pico-sdk/
 git submodule update --init
 cd ..
-git clone -b master https://github.com/raspberrypi/pico-examples.git
+git clone -b master https://github.com/raspberrypi/pico-examples.git --depth 1
 
 # Pico Project Generator 需要 GUI 支持
 sudo apt install python3-tk
-git clone https://github.com/raspberrypi/pico-project-generator.git
+git clone https://github.com/raspberrypi/pico-project-generator.git --depth 1
 ```
 
 保存环境变量：
@@ -49,7 +47,7 @@ echo "export PICO_SDK_PATH=/home/$USER/pico/pico-sdk" >> .bashrc
 source .bashrc
 ```
 
-### 验证 SDK
+## 1.3 验证 SDK
 
 ```bash
 cd
@@ -104,7 +102,9 @@ pico_add_extra_outputs(blink)
 example_auto_set_url(blink)
 ```
 
-### 使用工程生成器
+## 1.4 使用工程生成器
+
+此部分需要系统有桌面。
 
 ```bash
 cd
@@ -124,7 +124,7 @@ cd build
 make -j $(nproc)
 ```
 
-## VS Code 推荐插件
+## 1.5 VS Code 推荐插件
 
 ```bash
 code --install-extension marus25.cortex-debug

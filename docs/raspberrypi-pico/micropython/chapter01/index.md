@@ -5,13 +5,13 @@ description: 开始使用树莓派 Pico，点亮 LED
 
 # 1. 点亮 LED
 
-::: tip 阅读提示
+## 1.1 烧录固件
 
-如果没有阅读 [Pico 介绍](../../intro/)，请首先阅读 Pico 的基本信息，然后将 MicroPython 烧录到 Pico 内，下面开始使用 Pico。
+首先到 [Pico MicroPython 固件下载地址](https://micropython.org/download/rp2-pico/) 下载固件，下载最新版本的 **Firmware/Releases**，你下载的文件名称应该类似于 `rp2-pico-20220618-v1.19.1.uf2`。
 
-:::
+下载方法是按住按键不松手，然后使用 USB 插入到电脑上，电脑会将 Pico 识别为储存设备。我们将 `rp2-pico-20220618-v1.19.1.uf2` 文件拖放到 Pico 中，然后重启 Pico，Pico 中就可以使用 MicroPython 了。
 
-## 1.1 MicroPython 环境搭建
+## 1.2 Thonny IDE
 
 官方推荐使用 [Thonny](https://thonny.org/) 开发 Pico，这里也是以 Thonny 为例开发。所以我们需要先安装 Thonny。
 
@@ -24,9 +24,9 @@ description: 开始使用树莓派 Pico，点亮 LED
 
 你可以在交互式窗口内执行 Python 解释器，你输入的代码都会通过串口发送到 Pico，再由 Pico 执行返回。
 
-## 1.2 烧录代码
+## 1.3 使用 Thonny 保存代码
 
-将下面的代码保存为 `main.py`，选择保存到 Pico 上。
+将下面的代码保存为 `main.py`，在 Thonny 中选择保存到 Pico 上。
 
 ```python
 from machine import Pin
