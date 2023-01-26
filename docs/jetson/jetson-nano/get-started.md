@@ -19,7 +19,13 @@ description: 开始使用 Jetson Nano
 
 在购买官方 Jetson 开发板时其模块已经安装完成，为了更好地使用 Jetson Nano，推荐购买 Waveshare 系列的保护壳。
 
-但是不同的 Nano 版型和 Waveshare Jetson Nano Case 的版型有所不同，请确认是正确的版本再购买，部分 Jetson Nano 无法适配 TF 转接槽。
+但是不同的 Nano 版型和 Waveshare Jetson Nano Case 的版型有所不同，请确认是正确的版本再购买。
+
+::: warning 渠道商的产品差异
+
+不同的提供商的 Jetson Nano 略有差异，例如 B01 型号有不同的版型，也有包含 eMMC 的版型，如果是这些板块请到对应官网阅读使用说明。
+
+:::
 
 这里使用的是金属壳套装（即 C 型号），请参考 [官方 Wiki](https://www.waveshare.net/wiki/Jetson_Nano_Case_(C)) 以进行适配安装，其他型号同理。
 

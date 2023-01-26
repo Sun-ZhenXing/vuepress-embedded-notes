@@ -47,6 +47,14 @@ export default defineUserConfig({
       }
     ],
     sidebar: {
+      '/jetson/': [
+        '/jetson/jetson-nano/',
+      ],
+      '/jetson/jetson-nano/': [
+        '/jetson/jetson-nano/get-started.md',
+        '/jetson/jetson-nano/gpio.md',
+        '/jetson/jetson-nano/utils.md',
+      ],
       '/raspberrypi-pico/': [
         '/raspberrypi-pico/tutorial/',
         '/raspberrypi-pico/c-cpp/',
