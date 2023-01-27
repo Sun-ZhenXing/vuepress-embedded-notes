@@ -121,7 +121,7 @@ sudo apt install ubuntu-mate-desktop
 支持常见命令简写 `ll`、`la`、`l`：
 
 ```bash
-echo "alias ll='ls -l'
+echo "alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'" >> ~/.bashrc
 source ~/.bashrc
