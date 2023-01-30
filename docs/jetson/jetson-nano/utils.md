@@ -12,7 +12,7 @@ description: Jetson Nano 工具
 `jetson-stats` 包含各种 Jetson 状态管理工具，安装：
 
 ```bash
-sudo apt-get install python3-pip
+sudo apt install python3-pip
 sudo pip3 install jetson-stats
 ```
 

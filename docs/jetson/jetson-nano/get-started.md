@@ -80,7 +80,7 @@ pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 安装 CUDA 工具包和 cuDNN：
 
 ```bash
-sudo apt-get install cuda-toolkit-10-2
+sudo apt install cuda-toolkit-10-2
 sudo apt install libcudnn8
 ```
 
@@ -118,7 +118,7 @@ PyTorch v1.6.0 到 PyTorch v1.10.0 使用 Python 3.6，PyTorch v1.11.0 到 PyTor
 
 ```bash
 wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O torch-1.8.0-cp36-cp36m-linux_aarch64.whl
-sudo apt-get install python3-pip libopenblas-base libopenmpi-dev libomp-dev
+sudo apt install python3-pip libopenblas-base libopenmpi-dev libomp-dev
 pip3 install Cython
 pip3 install numpy torch-1.8.0-cp36-cp36m-linux_aarch64.whl
 ```
@@ -136,7 +136,7 @@ pip3 install pillow
 然后执行下面的命令编译安装 Torchvision：
 
 ```bash
-sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev
+sudo apt install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev
 
 git clone --branch v0.8.0 https://github.com/pytorch/vision torchvision
 cd torchvision

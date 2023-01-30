@@ -54,6 +54,7 @@ export default defineUserConfig({
         '/jetson/jetson-nano/get-started.md',
         '/jetson/jetson-nano/gpio.md',
         '/jetson/jetson-nano/utils.md',
+        '/jetson/jetson-nano/emmc.md',
       ],
       '/raspberrypi-pico/': [
         '/raspberrypi-pico/tutorial/',

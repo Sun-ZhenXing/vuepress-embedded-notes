@@ -94,9 +94,9 @@ deb http://apt.radxa.com/stretch/ stretch main' > /etc/apt/sources.list
 更新系统功能命令，注意需要保持 Linux 内核版本和其包版本一致。
 
 ```bash
-sudo apt-get update
-sudo apt-get install -y rockchip-overlay
-sudo apt-get install -y linux-4.19-rock-3-latest
+sudo apt update
+sudo apt install -y rockchip-overlay
+sudo apt install -y linux-4.19-rock-3-latest
 ```
 
 如果下载较慢，可以使用局域网代理，将 `<ip>` 和 `<port>` 替换为你的代理主机信息：
@@ -111,7 +111,7 @@ export https_proxy=socks://<ip>:<port>
 这是可选功能，如果您确实有需要则可以安装，安装过程较慢。Ubuntu 镜像默认没有桌面，安装桌面命令：
 
 ```bash
-sudo apt-get update
+sudo apt update
 sudo apt install ubuntu-mate-core
 sudo apt install ubuntu-mate-desktop
 ```
