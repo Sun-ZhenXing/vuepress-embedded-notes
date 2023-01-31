@@ -19,7 +19,7 @@ sudo pip3 install jetson-stats
 查看状态：
 
 ```bash
-sudo jtop
+jtop
 ```
 
 显示 Jetson 的状态和所有信息：

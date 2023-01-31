@@ -67,6 +67,7 @@ sudo apt upgrade
 更新 `pip` 和镜像：
 
 ```bash
+sudo apt install python3-pip
 python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
 pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
@@ -96,6 +97,12 @@ sudo apt install python3-libnvinfer
 ```bash
 echo 'export PATH=$PATH:/usr/local/cuda-10.2/bin' >> ~/.bashrc
 source ~/.bashrc
+```
+
+安装 VPI：
+
+```bash
+sudo apt install libnvvpi1 vpi1-dev vpi1-samples vpi1-demos
 ```
 
 ### 3.2 安装 PyTorch
@@ -166,6 +173,7 @@ print(torchvision.__version__)
 ### 3.4 安装 torch2trt
 
 ```bash
+pip3 install packaging
 git clone https://github.com/NVIDIA-AI-IOT/torch2trt --depth 1
 cd torch2trt
 sudo python3 setup.py install --plugins
