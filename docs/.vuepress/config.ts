@@ -50,6 +50,9 @@ export default defineUserConfig({
       '/jetson/': [
         '/jetson/jetson-nano/',
       ],
+      '/jetson/common/': [
+        '/jetson/common/compile-opencv-with-cuda.md',
+      ],
       '/jetson/jetson-nano/': [
         '/jetson/jetson-nano/get-started.md',
         '/jetson/jetson-nano/gpio.md',
