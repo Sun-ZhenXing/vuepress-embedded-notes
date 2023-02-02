@@ -3,7 +3,7 @@ home: true
 heroImage: /favicon.svg
 actions:
   - text: 开始阅读
-    link: /
+    link: '#嵌入式笔记合集'
     type: primary
 features:
   - title: VuePress

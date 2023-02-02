@@ -5,6 +5,8 @@ description: 编译 NCNN
 
 # 编译 NCNN
 
+[[TOC]]
+
 ## 1. 编译 CMake
 
 NCNN 编译要求 CMake 版本大于 3.13（当前 2023-02-02），而 Ubuntu 18 源很快停止维护，将维持 3.10 版本，所以我们需要从源码安装。

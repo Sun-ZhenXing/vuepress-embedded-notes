@@ -5,6 +5,8 @@ description: 编译 CUDA 支持的 OpenCV
 
 # 编译 CUDA 支持的 OpenCV
 
+[[TOC]]
+
 ## 1. 安装依赖
 
 在编译之前确保你的设备已经安装了 CUDA。查看是否安装了 CUDA 和 OpenCV，以及此 OpenCV 是否有 CUDA 支持：

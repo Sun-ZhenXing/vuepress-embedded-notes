@@ -49,6 +49,7 @@ export default defineUserConfig({
     sidebar: {
       '/jetson/': [
         '/jetson/jetson-nano/',
+        '/jetson/common/',
       ],
       '/jetson/common/': [
         '/jetson/common/compile-opencv-with-cuda.md',
