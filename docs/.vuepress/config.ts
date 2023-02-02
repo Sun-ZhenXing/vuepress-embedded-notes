@@ -52,6 +52,7 @@ export default defineUserConfig({
       ],
       '/jetson/common/': [
         '/jetson/common/compile-opencv-with-cuda.md',
+        '/jetson/common/compile-ncnn.md',
       ],
       '/jetson/jetson-nano/': [
         '/jetson/jetson-nano/get-started.md',
@@ -104,6 +105,28 @@ export default defineUserConfig({
       katex: true,
       mermaid: true,
       delay: 200,
+      stylize: [
+        {
+          matcher: '@def',
+          replacer: ({ tag }) => {
+            if (tag === 'em') return {
+              tag: 'Badge',
+              attrs: { type: 'tip' },
+              content: '定义'
+            }
+          }
+        },
+        {
+          matcher: '@TODO',
+          replacer: ({ tag }) => {
+            if (tag === 'em') return {
+              tag: 'Badge',
+              attrs: { type: 'danger' },
+              content: 'TODO'
+            }
+          }
+        }
+      ]
     }),
     searchProPlugin({}),
     autoCatalogPlugin({}),

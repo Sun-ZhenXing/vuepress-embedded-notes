@@ -27,7 +27,13 @@ description: 开始使用 Rock 3A
 ping rock3a.local
 ```
 
-否则，通过端口搜索或扫描，或者查看路由器管理界面，可以得到其 IP 地址，直接使用 SSH 连接即可。SSH 连接命令：
+如果没有错误，测试一下 SSH 能否正确连接：
+
+```bash
+ssh rock@rock3a.local
+```
+
+如果不能使用这种方法，可以通过端口搜索或扫描，或者查看路由器管理界面，可以得到其 IP 地址，然后使用 SSH 连接即可。SSH 连接命令：
 
 ```bash
 ssh rock@<ip>
