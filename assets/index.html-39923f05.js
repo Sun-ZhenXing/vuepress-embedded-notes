@@ -1,0 +1,11 @@
+import{_ as n,p as s,q as a,a1 as e}from"./framework-39cc0843.js";const t={},p=e(`<h1 id="_8-定时器中断" tabindex="-1"><a class="header-anchor" href="#_8-定时器中断" aria-hidden="true">#</a> 8. 定时器中断</h1><nav class="table-of-contents"><ul></ul></nav><div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code><span class="token keyword">from</span> machine <span class="token keyword">import</span> Pin<span class="token punctuation">,</span> Timer
+
+led <span class="token operator">=</span> Pin<span class="token punctuation">(</span><span class="token number">25</span><span class="token punctuation">,</span> Pin<span class="token punctuation">.</span>OUT<span class="token punctuation">)</span>
+timer <span class="token operator">=</span> Timer<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">tick</span><span class="token punctuation">(</span>timer<span class="token punctuation">:</span> Timer<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">global</span> led
+    led<span class="token punctuation">.</span>toggle<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+timer<span class="token punctuation">.</span>init<span class="token punctuation">(</span>freq<span class="token operator">=</span><span class="token number">0.5</span><span class="token punctuation">,</span> mode<span class="token operator">=</span>Timer<span class="token punctuation">.</span>PERIODIC<span class="token punctuation">,</span> callback<span class="token operator">=</span>tick<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3),o=[p];function c(i,l){return s(),a("div",null,o)}const r=n(t,[["render",c],["__file","index.html.vue"]]);export{r as default};
