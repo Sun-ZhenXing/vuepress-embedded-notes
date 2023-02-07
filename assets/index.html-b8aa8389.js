@@ -1,0 +1,1 @@
+import{_ as o,M as t,p as c,q as n,N as r,R as e,t as s}from"./framework-bafc524a.js";const _={},d=e("h1",{id:"rock-3a",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#rock-3a","aria-hidden":"true"},"#"),s(" Rock 3A")],-1);function l(i,h){const a=t("AutoCatalog");return c(),n("div",null,[d,r(a)])}const m=o(_,[["render",l],["__file","index.html.vue"]]);export{m as default};
