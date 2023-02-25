@@ -1,9 +1,0 @@
-import{_ as n,p as a,q as s,a1 as t}from"./framework-bafc524a.js";const p={},o=t(`<h1 id="_7-外部引脚中断" tabindex="-1"><a class="header-anchor" href="#_7-外部引脚中断" aria-hidden="true">#</a> 7. 外部引脚中断</h1><nav class="table-of-contents"><ul></ul></nav><div class="language-python" data-ext="py"><pre class="language-python"><code><span class="token keyword">from</span> machine <span class="token keyword">import</span> Pin
-
-p2 <span class="token operator">=</span> Pin<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> Pin<span class="token punctuation">.</span>IN<span class="token punctuation">,</span> Pin<span class="token punctuation">.</span>PULL_UP<span class="token punctuation">)</span>
-
-<span class="token keyword">def</span> <span class="token function">interrupt</span><span class="token punctuation">(</span>p<span class="token punctuation">:</span> Pin<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&#39;irq:&#39;</span><span class="token punctuation">,</span> p<span class="token punctuation">.</span>irq<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>flags<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-
-p2<span class="token punctuation">.</span>irq<span class="token punctuation">(</span>interrupt<span class="token punctuation">,</span> Pin<span class="token punctuation">.</span>IRQ_FALLING<span class="token punctuation">)</span>
-</code></pre></div>`,3),c=[o];function e(u,i){return a(),s("div",null,c)}const k=n(p,[["render",e],["__file","index.html.vue"]]);export{k as default};
