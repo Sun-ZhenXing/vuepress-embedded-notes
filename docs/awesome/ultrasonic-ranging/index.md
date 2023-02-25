@@ -30,7 +30,7 @@ description: 超声波测距
     - 如何使用数码管模块
 - 如何使用超声波测距
 
-# 2. Arduino 设计
+## 2. Arduino 设计
 
 一开始是使用 Arduino UNO 设计的，因为 Arduino 设计比较简单，很多库可以直接用，使用 Arduino 测量的结果也比较精确。
 
@@ -38,7 +38,7 @@ description: 超声波测距
 
 @[code cpp](./src/arduino.ino)
 
-# 2. Mbed 设计
+## 3. Mbed 设计
 
 Mbed 设计过程很相似，甚至有一些代码都一致。
 
