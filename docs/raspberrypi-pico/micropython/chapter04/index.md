@@ -1,8 +1,3 @@
----
-title: 第 4 章：PWM 外设
-description: Pico PWM 外设
----
-
 # 4. PWM 外设
 
 [[TOC]]

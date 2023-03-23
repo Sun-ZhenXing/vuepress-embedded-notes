@@ -1,8 +1,3 @@
----
-title: 第 1 章：Pico C/C++ 开发环境搭建
-description: 简单介绍如何搭建 Pico 的 C/C++ 开发环境
----
-
 # 1. Pico C/C++ 开发环境搭建
 
 [[TOC]]

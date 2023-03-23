@@ -1,8 +1,3 @@
----
-title: 第 3 章：检测按键
-description: Pico 检测按键
----
-
 # 3. 检测按键
 
 [[TOC]]

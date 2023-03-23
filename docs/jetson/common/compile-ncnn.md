@@ -1,8 +1,3 @@
----
-title: 编译 NCNN
-description: 编译 NCNN
----
-
 # 编译 NCNN
 
 [[TOC]]

@@ -1,8 +1,3 @@
----
-title: MQTT 智能家居
-description: MQTT 智能家居项目
----
-
 # MQTT 智能家居
 
 [[TOC]]

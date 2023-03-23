@@ -1,8 +1,3 @@
----
-title: 第 9 章：PIO 外设
-description: Pico PIO 外设
----
-
 # 9. PIO 外设
 
 [[TOC]]

@@ -1,8 +1,3 @@
----
-title: MicroPython 配置 IDE
-description: MicroPython 配置 IDE
----
-
 # MicroPython 配置 IDE
 
 ## 1. 开发环境

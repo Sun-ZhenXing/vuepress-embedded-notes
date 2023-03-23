@@ -1,8 +1,3 @@
----
-title: Rock 3 系列 GPIO
-description: Rock 3 系列 GPIO，版本 1.2
----
-
 # Rock 3 系列 GPIO
 
 GPIO 硬件版本 1.2，详细信息请查阅参考文献。[^1]

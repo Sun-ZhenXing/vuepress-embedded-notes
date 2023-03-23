@@ -1,8 +1,3 @@
----
-title: ESP8266 使用 mDNS
-description: ESP8266 使用 mDNS 指南
----
-
 # ESP8266 使用 mDNS
 
 ## 1. 什么是 mDNS

@@ -1,8 +1,3 @@
----
-title: 第 3 章：Pico ADC 模块
-description: 介绍树莓派 Pico 配置的 ADC 模块
----
-
 # 3. Pico ADC 模块
 
 [[TOC]]

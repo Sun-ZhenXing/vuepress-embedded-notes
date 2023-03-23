@@ -1,8 +1,3 @@
----
-title: MQTT Topic 解析
-description: MQTT Topic 解析
----
-
 # MQTT Topic 解析
 
 ## 1. 主题

@@ -1,8 +1,3 @@
----
-title: 编译 CUDA 支持的 OpenCV
-description: 编译 CUDA 支持的 OpenCV
----
-
 # 编译 CUDA 支持的 OpenCV
 
 [[TOC]]

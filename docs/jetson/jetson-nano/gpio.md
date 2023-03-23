@@ -1,8 +1,3 @@
----
-title: Jetson Nano GPIO
-description: Jetson Nano GPIO
----
-
 # Jetson Nano GPIO
 
 [[TOC]]

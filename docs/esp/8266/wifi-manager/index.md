@@ -1,8 +1,3 @@
----
-title: WiFiManager 自动配网
-description: 介绍如何使用 WiFiManager 进行自动配网
----
-
 # WiFiManager 自动配网
 
 ## 1. 自动配网

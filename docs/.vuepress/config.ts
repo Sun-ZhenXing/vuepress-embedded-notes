@@ -55,6 +55,7 @@ export default defineUserConfig({
         '/jetson/common/compile-opencv-with-cuda.md',
         '/jetson/common/compile-ncnn.md',
         '/jetson/common/test-camera.md',
+        '/jetson/common/use-sdk-manager.md',
       ],
       '/jetson/jetson-nano/': [
         '/jetson/jetson-nano/get-started.md',
@@ -131,7 +132,16 @@ export default defineUserConfig({
       ]
     }, false),
     searchProPlugin({}),
-    autoCatalogPlugin({}),
+    autoCatalogPlugin({
+      orderGetter: ({ title, routeMeta }) => {
+        if (routeMeta.order) return routeMeta.order as number
+        const prefix = title.match(/^\d+. /)
+        if (prefix) return parseInt(prefix[0])
+        const suffix = title.match(/\d+$/)
+        if (suffix) return parseInt(suffix[0])
+        return 0
+      }
+    }),
     copyCodePlugin({
       showInMobile: true
     })

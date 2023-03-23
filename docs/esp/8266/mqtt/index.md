@@ -1,8 +1,3 @@
----
-title: ESP8266 使用 MQTT 通信
-description: ESP8266 使用 MQTT 通信方法简介
----
-
 # ESP8266 使用 MQTT 通信
 
 ## 1. MQTT

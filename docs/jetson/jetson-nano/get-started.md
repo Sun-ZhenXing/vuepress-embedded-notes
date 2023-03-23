@@ -1,8 +1,3 @@
----
-title: 开始使用 Jetson Nano
-description: 开始使用 Jetson Nano
----
-
 # 开始使用 Jetson Nano
 
 [[TOC]]

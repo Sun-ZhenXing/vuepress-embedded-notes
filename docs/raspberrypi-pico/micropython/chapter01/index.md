@@ -1,8 +1,3 @@
----
-title: 第 1 章：点亮 LED
-description: 开始使用树莓派 Pico，点亮 LED
----
-
 # 1. 点亮 LED
 
 [[TOC]]

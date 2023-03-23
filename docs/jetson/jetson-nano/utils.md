@@ -1,8 +1,3 @@
----
-title: Jetson Nano 工具
-description: Jetson Nano 工具
----
-
 # Jetson Nano 工具
 
 [[TOC]]

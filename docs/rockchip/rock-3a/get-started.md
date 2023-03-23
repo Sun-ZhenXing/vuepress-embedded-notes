@@ -1,8 +1,3 @@
----
-title: 开始使用 Rock 3A
-description: 开始使用 Rock 3A
----
-
 # 开始使用 Rock 3A
 
 [[TOC]]

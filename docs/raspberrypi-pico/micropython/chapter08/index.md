@@ -1,8 +1,3 @@
----
-title: 第 8 章：定时器中断
-description: Pico 定时器中断
----
-
 # 8. 定时器中断
 
 [[TOC]]

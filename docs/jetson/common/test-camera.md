@@ -1,8 +1,3 @@
----
-title: Jetson 测试摄像头
-description: Jetson 测试摄像头
----
-
 # Jetson 测试摄像头
 
 [[TOC]]
