@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-38f3db84","path":"/rockchip/rock-3a/","title":"Rock 3A","lang":"zh-CN","frontmatter":{"title":"Rock 3A","description":"Rock 3A"},"headers":[],"git":{"updatedTime":1673856491000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"rockchip/rock-3a/index.md"}');export{t as data};

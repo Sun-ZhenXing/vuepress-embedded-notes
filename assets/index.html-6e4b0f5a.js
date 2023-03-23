@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-59bdb838","path":"/jetson/jetson-nano/","title":"Jetson Nano","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679530914000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":2}]},"filePathRelative":"jetson/jetson-nano/index.md","excerpt":""}');export{e as data};

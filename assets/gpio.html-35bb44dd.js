@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-d8d54c28","path":"/rockchip/rock-3a/gpio.html","title":"Rock 3 系列 GPIO","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679530914000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":2}]},"filePathRelative":"rockchip/rock-3a/gpio.md","excerpt":""}');export{t as data};

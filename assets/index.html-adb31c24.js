@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-eead5a5c","path":"/raspberrypi-pico/micropython/chapter06/","title":"6. 串口外设接收数据","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679530914000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":2}]},"filePathRelative":"raspberrypi-pico/micropython/chapter06/index.md","excerpt":""}');export{e as data};

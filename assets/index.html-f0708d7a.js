@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-40d3a245","path":"/rockchip/","title":"瑞芯微系列","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679530914000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":2}]},"filePathRelative":"rockchip/index.md","excerpt":""}');export{e as data};

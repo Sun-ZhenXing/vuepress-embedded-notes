@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-23852327","path":"/jetson/common/","title":"NVIDIA Jetson 通用技术","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679530914000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":2}]},"filePathRelative":"jetson/common/index.md","excerpt":""}');export{e as data};

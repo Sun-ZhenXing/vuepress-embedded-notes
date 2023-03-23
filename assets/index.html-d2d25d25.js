@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-eead5a9a","path":"/raspberrypi-pico/micropython/chapter05/","title":"5. 串口数据发送","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679530914000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":2}]},"filePathRelative":"raspberrypi-pico/micropython/chapter05/index.md","excerpt":""}');export{e as data};
