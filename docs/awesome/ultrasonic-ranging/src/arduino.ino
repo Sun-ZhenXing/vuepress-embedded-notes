@@ -19,18 +19,9 @@
 
 // 数字的字形
 // 每一个位分别对应 Dot|G|F|E|D|C|B|A
-const unsigned char NUM_7_SEG[] = {
-    0b0111111,
-    0b0000110,
-    0b1011011,
-    0b1001111,
-    0b1100110,
-    0b1101101,
-    0b1111101,
-    0b0000111,
-    0b1111111,
-    0b1101111
-};
+const unsigned char NUM_7_SEG[] = {0b0111111, 0b0000110, 0b1011011, 0b1001111,
+                                   0b1100110, 0b1101101, 0b1111101, 0b0000111,
+                                   0b1111111, 0b1101111};
 
 // 将测量时间换算为距离
 long microsecondsToCentimeters(long microseconds) {
@@ -136,5 +127,4 @@ void loop() {
         clear();
         delay(LED_DELAY);
     }
-
 }
