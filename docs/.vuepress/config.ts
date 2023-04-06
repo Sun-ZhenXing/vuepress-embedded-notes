@@ -46,48 +46,7 @@ export default defineUserConfig({
         ]
       }
     ],
-    sidebar: {
-      '/jetson/': [
-        '/jetson/jetson-nano/',
-        '/jetson/common/',
-      ],
-      '/jetson/common/': [
-        '/jetson/common/compile-opencv-with-cuda.md',
-        '/jetson/common/compile-ncnn.md',
-        '/jetson/common/test-camera.md',
-        '/jetson/common/use-sdk-manager.md',
-      ],
-      '/jetson/jetson-nano/': [
-        '/jetson/jetson-nano/get-started.md',
-        '/jetson/jetson-nano/gpio.md',
-        '/jetson/jetson-nano/utils.md',
-        '/jetson/jetson-nano/emmc.md',
-      ],
-      '/raspberrypi-pico/': [
-        '/raspberrypi-pico/tutorial/',
-        '/raspberrypi-pico/c-cpp/',
-        '/raspberrypi-pico/micropython/',
-      ],
-      '/raspberrypi-pico/tutorial/': [
-        '/raspberrypi-pico/tutorial/chapter01/',
-        '/raspberrypi-pico/tutorial/chapter02/',
-        '/raspberrypi-pico/tutorial/chapter03/',
-      ],
-      '/raspberrypi-pico/c-cpp/': [
-        '/raspberrypi-pico/c-cpp/chapter01/',
-      ],
-      '/raspberrypi-pico/micropython/': [
-        '/raspberrypi-pico/micropython/chapter01/',
-        '/raspberrypi-pico/micropython/chapter02/',
-        '/raspberrypi-pico/micropython/chapter03/',
-        '/raspberrypi-pico/micropython/chapter04/',
-        '/raspberrypi-pico/micropython/chapter05/',
-        '/raspberrypi-pico/micropython/chapter06/',
-        '/raspberrypi-pico/micropython/chapter07/',
-        '/raspberrypi-pico/micropython/chapter08/',
-        '/raspberrypi-pico/micropython/chapter09/',
-      ]
-    }
+    sidebar: 'auto'
   }),
   plugins: [
     mdEnhancePlugin({
