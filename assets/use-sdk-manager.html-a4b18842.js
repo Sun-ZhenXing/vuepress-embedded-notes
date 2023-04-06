@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-093db52c","path":"/jetson/common/use-sdk-manager.html","title":"使用 SDK Manager","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1679530914000,"contributors":[{"name":"Sun-ZhenXing","email":"1006925066@qq.com","commits":1}]},"filePathRelative":"jetson/common/use-sdk-manager.md","excerpt":""}');export{e as data};
